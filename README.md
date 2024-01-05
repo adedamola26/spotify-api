@@ -34,15 +34,15 @@ Used to schedule how often the First lambda function should run (set to every 1 
 
 - __Amazon S3 (Simple Storage Service)__
   
-Used to store all objects generated from different stages in the pipeline. Also used as a trigger for the second lambda function (i.e: when .json file is loaded in a specified folder, begin transfotmation)
+Used to store all objects generated from different stages in the pipeline. Also used as a trigger for the second lambda function (i.e: when .json file is loaded in a specified folder, begin transformation)
 
 - __AWS Glue__
   
-Used to clean and prepare my data for analysis.
+Used to catalog the data.
 
 - __Amazon Athena__
   
-Used to query and analyse the datasets.
+Used to query and analyze the datasets.
 
 ## Architecture Diagram
 The diagram below shows the structure of the pipeline for the project.
