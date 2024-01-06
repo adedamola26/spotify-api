@@ -69,7 +69,7 @@ __TRACK__ _stores all tracks on the playlist_
 - duration_ms - the duration of the track in milliseconds
 - rank - the track's rank on the leaderboard
 
-__COLLABORATION__ _(the bridge that resolves the many-to-many relationship between ARTIST and TRACK)_
+__TRACK_PRESENCE__ _(the bridge that resolves the many-to-many relationship between ARTIST and TRACK)_
 - track_id - the unique id of the track (PK,FK)
 - artist_id - the unique id of the artist (PK,FK)
 
